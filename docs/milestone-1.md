@@ -1,4 +1,4 @@
-﻿# Milestone 1 - boot, translation, video and audio
+# Milestone 1 - boot, translation, video and audio
 
 Date: 2026-11-01. Toolkit: neogeorecomp v0.2.0 (upstream `af96b2b`) with
 the generic changes in `docs/runtime-changes.md`.
