@@ -1,0 +1,27 @@
+﻿# The King of Fighters '98 gameplay soak.
+# 1300 coin, 1500 start; the BIOS/game how-to-play screens run to ~3900.
+1300 coin
+1500 start
+4000 a
+4200 a
+4400 a
+4800 start
+# walk and attack once the match begins
+6000 right
+6060 right
+6120 right+a
+6180 down
+6240 down+b
+6300 left
+6360 left+a
+6420 up
+6480 up+b
+6540 a
+6600 b
+6660 c
+6720 d
+6800 right
+6860 right+c
+6920 right+d
+7000 a
+7060 b

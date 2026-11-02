@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=The King of Fighters '98
+GenericName=Arcade fighting game
+Comment=Native Neo Geo recompilation (ROMs required)
+Exec=KOF98
+Icon=kof98
+Categories=Game;ArcadeGame;
+Terminal=false

@@ -1,0 +1,4 @@
+﻿# The King of Fighters '98 (MAME set kof98)
+# Frame numbers are 59.1856 Hz video frames from power-on.
+1300 coin
+1500 start
