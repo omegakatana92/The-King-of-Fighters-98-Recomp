@@ -1,4 +1,4 @@
-The King of Fighters '98 - Windows x64
+﻿The King of Fighters '98 - Windows x64
 ======================================
 
 This package contains:
@@ -63,8 +63,8 @@ Useful options
 
 Verified in this build
 ----------------------
-  9,000-frame scripted session: 0 mismatches, 100.00% native,
-  0 uncovered entry points (6,406,652 blocks).
+  9,000-frame scripted session with NG_RTC=1998-01-01: 0 mismatches,
+  100.00% native, 0 uncovered entry points (6,401,389 blocks).
 
 Licensing
 ---------
@@ -73,3 +73,4 @@ BSD-3-Clause, SDL2 is zlib. The original project code is licensed under
 PolyForm Noncommercial 1.0.0 (confirmed 2026-11-01). The King of Fighters
 '98 and Neo Geo are trademarks of SNK Corporation. This project is not
 affiliated with or endorsed by SNK.
+
