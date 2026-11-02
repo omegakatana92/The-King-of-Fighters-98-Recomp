@@ -1,4 +1,4 @@
-# The King of Fighters '98 - native recompilation
+﻿# The King of Fighters '98 - native recompilation
 
 **Status: alpha, playable.** The game boots through a real MVS system ROM,
 runs its attract mode, accepts a coin and start, reaches character select,
@@ -10,7 +10,7 @@ linked into the player.
 | ROM set | MAME `kof98` (NGM-242), original PROGSF1 program + ALTERA protection |
 | Boot | Real `sp-s2.sp1` MVS BIOS; no BIOS HLE |
 | 68000 | 44,126 recompiled entry points; **100.00% native**, 0 uncovered in a 9,000-frame scripted session |
-| Correctness | `--verify`: 6,406,652 blocks, **0 mismatches** |
+| Correctness | `--verify` (fixed RTC): 6,401,389 blocks, **0 mismatches** |
 | Video | 320x224, 4:3 pillarboxed on 16:10 (1280x800 Steam Deck) |
 | Audio | YM2610 at 55,555 Hz; native-rate capture matches MAME 0.289 (spectral cosine 0.987-0.994) |
 | Windows | Release `KOF98.exe` built and tested |
@@ -141,8 +141,8 @@ build-windows\Release\KOF98.exe --headless --verify `
 Recorded result:
 
 ```
-[verify] 6406652 blocks checked, 0 mismatches
-[exec] native blocks 6406652, native instructions 165304749,
+[verify] 6401389 blocks checked, 0 mismatches
+[exec] native blocks 6401389, native instructions 165247879,
        interpreted instructions 573 (100.00% native), 0 uncovered entry points
 ```
 
@@ -212,3 +212,4 @@ dist/steamdeck/                AppImage (no ROMs)
 * No SNK ROMs, BIOS images, decrypted ROMs, generated C or gameplay art are
   distributed. *The King of Fighters '98* and *Neo Geo* are trademarks of
   SNK Corporation. This project is not affiliated with or endorsed by SNK.
+

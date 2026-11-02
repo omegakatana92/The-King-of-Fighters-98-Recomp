@@ -1,4 +1,4 @@
-# Milestone 1 - boot, translation, video and audio
+﻿# Milestone 1 - boot, translation, video and audio
 
 Date: 2026-11-01. Toolkit: neogeorecomp v0.2.0 (upstream `af96b2b`) with
 the generic changes in `docs/runtime-changes.md`.
@@ -30,8 +30,8 @@ After two profile passes the table has 44,126 entries. `--verify` on
 9,000 frames with `NG_RTC=1998-01-01` (fixed calendar/RNG seed):
 
 ```
-[verify] 6406652 blocks checked, 0 mismatches
-[exec] native blocks 6406652, native instructions 165304749,
+[verify] 6401389 blocks checked, 0 mismatches
+[exec] native blocks 6401389, native instructions 165247879,
        interpreted instructions 573 (100.00% native), 0 uncovered entry points
 ```
 
@@ -79,3 +79,4 @@ matched 55,555 Hz, every band is within 0.3 dB.
 * Subjective listening on speakers/headphones.
 * Two-player, every stage/character, service menu.
 * A physical gamepad.
+
