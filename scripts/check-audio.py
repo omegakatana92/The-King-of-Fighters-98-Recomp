@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Fail if a captured session has music-sized silent gaps.
 
 This guards against the M1-bank bug the earlier ports hit: did not silence the game: one-shot ADPCM

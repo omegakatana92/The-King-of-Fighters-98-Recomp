@@ -1,4 +1,4 @@
-﻿# The King of Fighters '98 gameplay soak.
+# The King of Fighters '98 gameplay soak.
 # 1300 coin, 1500 start; the BIOS/game how-to-play screens run to ~3900.
 1300 coin
 1500 start

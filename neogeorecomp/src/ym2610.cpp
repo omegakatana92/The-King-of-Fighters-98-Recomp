@@ -1,5 +1,5 @@
-﻿/*
- * ym2610.cpp â€” YM2610 sound synthesis, through ymfm (ext/ymfm, BSD-3).
+/*
+ * ym2610.cpp - YM2610 sound synthesis, through ymfm (ext/ymfm, BSD-3).
  *
  * audio.c keeps modelling the timers, status and IRQ the sound driver
  * syncs to; this file only turns register writes into samples. FM and

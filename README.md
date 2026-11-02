@@ -1,4 +1,4 @@
-﻿# The King of Fighters '98 - native recompilation
+# The King of Fighters '98 - native recompilation
 
 **Status: alpha, playable.** The game boots through a real MVS system ROM,
 runs its attract mode, accepts a coin and start, reaches character select,

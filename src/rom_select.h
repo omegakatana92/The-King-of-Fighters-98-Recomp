@@ -1,4 +1,4 @@
-﻿#ifndef KOF98_ROM_SELECT_H
+#ifndef KOF98_ROM_SELECT_H
 #define KOF98_ROM_SELECT_H
 
 #include <stddef.h>

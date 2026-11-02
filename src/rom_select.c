@@ -1,4 +1,4 @@
-﻿/*
+/*
  * rom_select.c - first-run ROM folder selection.
  *
  * The runtime expects a directory containing the decrypted KOF98 set
