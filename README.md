@@ -131,7 +131,9 @@ through SDL2's GameController API and supports hot-plug and two players.
 ## Verification commands
 
 ```powershell
-# 9,000 frames: BIOS, title, coin/start, character select, a match
+# 9,000 frames: BIOS, title, coin/start, character select, a match.
+# NG_RTC fixes the calendar/RNG seed so the session is reproducible.
+$env:NG_RTC="1998-01-01"
 build-windows\Release\KOF98.exe --headless --verify `
     --rom-path build-windows\roms --frames 9000 --input tests\play.txt
 ```

@@ -27,7 +27,7 @@ Windows and Linux outputs are byte-identical (SHA-256
 ```
 
 After two profile passes the table has 44,126 entries. `--verify` on
-9,000 frames:
+9,000 frames with `NG_RTC=1998-01-01` (fixed calendar/RNG seed):
 
 ```
 [verify] 6406652 blocks checked, 0 mismatches
