@@ -1,4 +1,4 @@
-﻿The King of Fighters '98 - Windows x64
+The King of Fighters '98 - Windows x64
 ======================================
 
 This package contains:
